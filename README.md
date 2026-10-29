@@ -224,7 +224,6 @@ A GreenStore foi desenvolvida para demonstrar conhecimentos práticos de desenvo
 - Práticas de segurança web.
 - Otimização de desempenho e Green Coding.
 
-O projeto faz parte de um portfólio voltado a oportunidades de estágio e desenvolvimento profissional na área de tecnologia.
 
 ## Autor
 
