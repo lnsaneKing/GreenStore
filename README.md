@@ -228,7 +228,7 @@ O projeto faz parte de um portfólio voltado a oportunidades de estágio e desen
 
 ## Autor
 
-**Rafael Júnior**
+**Rafael Junio**
 
 GitHub: [@lnsaneKing](https://github.com/lnsaneKing)
 
