@@ -1,0 +1,16 @@
+# Dependencias locais
+node_modules/
+
+# Segredos e configuracoes pessoais
+.env
+.env.*
+!.env.example
+
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.zip
+
+# Copias de seguranca locais
+server-backup.js
+server-novo.js

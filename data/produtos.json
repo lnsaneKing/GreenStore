@@ -1,0 +1,147 @@
+
+[
+  {
+    "id": 1,
+    "nome": "Teclado Mecânico RGB",
+    "categoria": "teclados",
+    "preco": 249.90,
+    "precoAnterior": 299.90,
+    "imagem": "teclado.webp",
+    "descricao": "Teclado mecânico com iluminação RGB e construção resistente."
+  },
+  {
+    "id": 2,
+    "nome": "Teclado Gamer Compacto",
+    "categoria": "teclados",
+    "preco": 189.90,
+    "precoAnterior": null,
+    "imagem": "teclado.webp",
+    "descricao": "Teclado compacto para jogos e produtividade."
+  },
+  {
+    "id": 3,
+    "nome": "Teclado Mecânico TKL",
+    "categoria": "teclados",
+    "preco": 329.90,
+    "precoAnterior": 379.90,
+    "imagem": "teclado.webp",
+    "descricao": "Teclado mecânico sem teclado numérico, ideal para setups compactos."
+  },
+  {
+    "id": 4,
+    "nome": "Teclado Slim para Escritório",
+    "categoria": "teclados",
+    "preco": 99.90,
+    "precoAnterior": null,
+    "imagem": "teclado.webp",
+    "descricao": "Teclado de perfil baixo para uso cotidiano."
+  },
+  {
+    "id": 5,
+    "nome": "Mouse Gamer RGB",
+    "categoria": "mouses",
+    "preco": 129.90,
+    "precoAnterior": 159.90,
+    "imagem": "mouse.webp",
+    "descricao": "Mouse gamer com sensor óptico e iluminação RGB."
+  },
+  {
+    "id": 6,
+    "nome": "Mouse Sem Fio",
+    "categoria": "mouses",
+    "preco": 89.90,
+    "precoAnterior": null,
+    "imagem": "mouse.webp",
+    "descricao": "Mouse sem fio para trabalho e estudos."
+  },
+  {
+    "id": 7,
+    "nome": "Mouse Gamer Ultraleve",
+    "categoria": "mouses",
+    "preco": 199.90,
+    "precoAnterior": 239.90,
+    "imagem": "mouse.webp",
+    "descricao": "Mouse leve com sensor de alta precisão."
+  },
+  {
+    "id": 8,
+    "nome": "Mouse Ergonômico",
+    "categoria": "mouses",
+    "preco": 119.90,
+    "precoAnterior": null,
+    "imagem": "mouse.webp",
+    "descricao": "Mouse com formato ergonômico para maior conforto."
+  },
+  {
+    "id": 9,
+    "nome": "Headset Gamer Surround",
+    "categoria": "headsets",
+    "preco": 289.90,
+    "precoAnterior": 349.90,
+    "imagem": "headset.webp",
+    "descricao": "Headset gamer com microfone e áudio envolvente."
+  },
+  {
+    "id": 10,
+    "nome": "Headset Gamer RGB",
+    "categoria": "headsets",
+    "preco": 199.90,
+    "precoAnterior": null,
+    "imagem": "headset.webp",
+    "descricao": "Headset com iluminação RGB e microfone ajustável."
+  },
+  {
+    "id": 11,
+    "nome": "Headset Sem Fio",
+    "categoria": "headsets",
+    "preco": 399.90,
+    "precoAnterior": 449.90,
+    "imagem": "headset.webp",
+    "descricao": "Headset sem fio para jogos e entretenimento."
+  },
+  {
+    "id": 12,
+    "nome": "Headset Estéreo Compacto",
+    "categoria": "headsets",
+    "preco": 149.90,
+    "precoAnterior": null,
+    "imagem": "headset.webp",
+    "descricao": "Headset confortável para chamadas, estudos e jogos."
+  },
+  {
+    "id": 13,
+    "nome": "Mousepad Gamer Grande",
+    "categoria": "mousepads",
+    "preco": 79.90,
+    "precoAnterior": 99.90,
+    "imagem": "mousepad.webp",
+    "descricao": "Mousepad de superfície ampla com base antiderrapante."
+  },
+  {
+    "id": 14,
+    "nome": "Mousepad RGB",
+    "categoria": "mousepads",
+    "preco": 119.90,
+    "precoAnterior": null,
+    "imagem": "mousepad.webp",
+    "descricao": "Mousepad com iluminação nas bordas."
+  },
+  {
+    "id": 15,
+    "nome": "Mousepad Speed",
+    "categoria": "mousepads",
+    "preco": 49.90,
+    "precoAnterior": null,
+    "imagem": "mousepad.webp",
+    "descricao": "Mousepad com superfície de baixo atrito."
+  },
+  {
+    "id": 16,
+    "nome": "Mousepad XXL",
+    "categoria": "mousepads",
+    "preco": 109.90,
+    "precoAnterior": 139.90,
+    "imagem": "mousepad.webp",
+    "descricao": "Mousepad extragrande para teclado e mouse."
+  }
+]

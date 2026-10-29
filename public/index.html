@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GreenStore: loja fictícia de periféricos desenvolvida com Green Coding.">
+<meta name="theme-color" content="#090C12">
+<title>GreenStore | Periféricos e Tecnologia</title>
+<script src="tema-inicial.js"></script>
+<link rel="stylesheet" href="style.css?v=22">
+<script type="module" src="script.js?v=20"></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+<div class="top-bar">
+  <div class="container top-bar-content">
+    <span>Atendimento ao cliente</span>
+    <button id="alternar-tema" class="theme-toggle" type="button" aria-label="Alternar tema">
+      <span id="tema-icone" aria-hidden="true">☀</span>
+      <span id="tema-texto">Modo claro</span>
+    </button>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-content">
+    <a class="logo" href="index.html" aria-label="GreenStore - Página inicial">Green<span>Store.</span><small>Periféricos e tecnologia</small></a>
+
+    <div class="search" role="search">
+      <label class="sr-only" for="search-input">Pesquisar produtos</label>
+      <input id="search-input" type="search" placeholder="O que você está procurando? Digite aqui..." aria-controls="catalogo-lista">
+      <button class="search-btn" type="button" aria-label="Pesquisar">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+      </button>
+    </div>
+
+    <div class="header-actions">
+      <a class="header-link" href="#conteudo">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1-4 4-6 8-6s7 2 8 6"></path></svg>
+        <span>Minha Conta</span>
+      </a>
+      <a class="header-link" id="abrir-favoritos" role="button" aria-pressed="false" href="#vitrines">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 20s-8-5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 9c0 6-8 11-8 11z"></path></svg>
+        <span>Favoritos <b id="fav-count">0</b></span>
+      </a>
+      <button id="abrir-carrinho" class="cart-trigger" type="button" aria-haspopup="dialog" aria-controls="carrinho-dialog">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M3 4h2l2 12h12l2-9H6"></path><circle cx="9" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
+        <span class="cart-label">CARRINHO<small><span id="cart-count" class="cart-count">0</span> produtos</small></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="department-bar" aria-label="Departamentos da loja">
+    <div class="container department-shell">
+      <details class="department-menu">
+        <summary class="department-trigger">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18"></path><path d="M3 12h18"></path><path d="M3 18h18"></path></svg>
+          <span>DEPARTAMENTOS</span>
+        </summary>
+        <div class="department-dropdown department-content">
+          <a href="#teclados">Teclados</a>
+          <a href="#mouses">Mouses</a>
+          <a href="#headsets">Headsets</a>
+          <a href="#mousepads">Mousepads</a>
+          <a href="#vitrines">Todos os produtos</a>
+        </div>
+      </details>
+      <div class="department-links department-content">
+        <a href="#teclados">TECLADOS</a>
+        <a href="#mouses">MOUSES</a>
+        <a href="#headsets">HEADSETS</a>
+        <a href="#mousepads">MOUSEPADS</a>
+        <a href="#vitrines">TODOS OS PRODUTOS</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="conteudo">
+  <section class="hero-banner" aria-labelledby="hero-title">
+    <div class="container hero-layout">
+      <div class="hero-copy">
+        <h1 id="hero-title">Seu próximo setup começa aqui.</h1>
+        <p>Teclados, mouses, headsets e mousepads em uma seleção demonstrativa para o seu computador.</p>
+        <a class="hero-button" href="#vitrines">Ver produtos</a>
+      </div>
+      <div class="hero-photos">
+        <img src="assets/teclado.webp" width="640" height="400" alt="Fotografia de teclado mecânico" fetchpriority="high" decoding="async">
+        <img src="assets/headset.webp" width="560" height="350" alt="Fotografia de headset" decoding="async">
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits" aria-label="Vantagens da GreenStore">
+    <div class="container benefits-grid">
+      <div><strong>Frete grátis</strong><span>em compras acima de R$ 299</span></div>
+      <div><strong>5% off no PIX</strong><span>no pagamento à vista</span></div>
+      <div><strong>10x sem juros</strong><span>em todos os cartões</span></div>
+      <div><strong>Troca em 7 dias</strong><span>sem burocracia</span></div>
+    </div>
+  </section>
+
+  <section class="container spotlights" aria-label="Destaques da GreenStore">
+    <a class="spotlight s1" href="#teclados"><span><strong>Setup em alta</strong><small>Confira nossos teclados</small></span><img src="assets/teclado.webp" alt="" width="160" height="100" loading="lazy"></a>
+    <a class="spotlight s2" href="#mouses"><span><strong>Periféricos em foco</strong><small>Explore nossos mouses</small></span><img src="assets/mouse.webp" alt="" width="160" height="100" loading="lazy"></a>
+    <a class="spotlight s3" href="#headsets"><span><strong>Áudio para o seu setup</strong><small>Conheça os headsets</small></span><img src="assets/headset.webp" alt="" width="160" height="100" loading="lazy"></a>
+  </section>
+
+  <section class="container quick-categories" aria-labelledby="quick-title">
+    <h2 id="quick-title" class="stripe-title"><i aria-hidden="true"></i>Qual periférico você procura?</h2>
+    <div class="promo-grid">
+      <a href="#teclados" class="quick-item q1"><img src="assets/teclado.webp" alt="" width="160" height="110" loading="lazy"><span><strong>Teclados</strong><small>Confira</small></span></a>
+      <a href="#mouses" class="quick-item q2"><img src="assets/mouse.webp" alt="" width="160" height="110" loading="lazy"><span><strong>Mouses</strong><small>Confira</small></span></a>
+      <a href="#headsets" class="quick-item q3"><img src="assets/headset.webp" alt="" width="160" height="110" loading="lazy"><span><strong>Headsets</strong><small>Confira</small></span></a>
+      <a href="#mousepads" class="quick-item q4"><img src="assets/mousepad.webp" alt="" width="160" height="110" loading="lazy"><span><strong>Mousepads</strong><small>Confira</small></span></a>
+    </div>
+  </section>
+
+  <section class="container carousel" aria-labelledby="ofertas-title">
+    <div class="carousel-head">
+      <h2 id="ofertas-title" class="stripe-title"><i aria-hidden="true"></i>Ofertas e lançamentos</h2>
+      <div class="carousel-nav">
+        <button type="button" id="car-prev" aria-label="Anterior">‹</button>
+        <button type="button" id="car-next" aria-label="Próximo">›</button>
+      </div>
+    </div>
+    <div id="carrossel-lista" class="carousel-track"></div>
+  </section>
+
+  <section class="container showcases" id="vitrines" aria-labelledby="showcases-title">
+    <div class="section-heading">
+      <h2 id="showcases-title" class="stripe-title"><i aria-hidden="true"></i>Produtos da GreenStore</h2>
+      <p>Clique no produto para ver a descrição e adicionar ao carrinho.</p>
+    </div>
+    <div class="catalog-tools">
+      <div class="catalog-field"><label for="catalog-filter">Categoria</label>
+        <select id="catalog-filter"><option value="todos">Todas</option><option value="teclados">Teclados</option><option value="mouses">Mouses</option><option value="headsets">Headsets</option><option value="mousepads">Mousepads</option></select></div>
+      <div class="catalog-field"><label for="catalog-order">Ordenar por</label>
+        <select id="catalog-order"><option value="padrao">Ordem original</option><option value="menor">Menor preço</option><option value="maior">Maior preço</option><option value="nome">Nome A–Z</option></select></div>
+      <p id="catalog-count" class="catalog-count" role="status">16 produtos encontrados</p>
+    </div>
+    <p id="aviso-vazio" class="no-results" hidden>Nenhum produto encontrado.</p>
+    <div id="catalogo-lista"></div>
+  </section>
+</main>
+
+<dialog id="produto-dialog" class="store-dialog product-dialog" aria-labelledby="produto-titulo">
+  <div class="dialog-header"><h2 id="produto-titulo">Produto</h2>
+    <form method="dialog"><button class="dialog-close" type="submit">Fechar</button></form></div>
+  <div class="product-detail">
+    <div class="product-detail-image"><img id="produto-imagem" width="540" height="360" alt="" decoding="async"></div>
+    <div class="product-detail-info">
+      <p id="produto-categoria" class="detail-category"></p>
+      <p id="produto-preco-antigo" class="detail-old-price" hidden></p>
+      <p id="produto-preco" class="detail-price"></p>
+      <p id="produto-pix" class="detail-pix"></p>
+      <h3>Descrição do produto</h3>
+      <p id="produto-descricao" class="detail-description"></p>
+      <button id="produto-adicionar" class="add-to-cart" type="button">ADICIONAR AO CARRINHO</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="carrinho-dialog" class="store-dialog cart-dialog" aria-labelledby="carrinho-titulo">
+  <div class="dialog-header"><div><h2 id="carrinho-titulo">Meu carrinho</h2><p>Produtos selecionados</p></div>
+    <form method="dialog"><button class="dialog-close" type="submit">Fechar</button></form></div>
+  <div id="carrinho-itens" class="cart-items"><p>Seu carrinho está vazio.</p></div>
+  <div class="cart-footer">
+    <div class="cart-coupon">
+      <input id="cupom-input" placeholder="Cupom (ex.: GREEN10)" maxlength="20" aria-label="Cupom de desconto">
+      <button id="cupom-aplicar" type="button">Aplicar</button>
+    </div>
+    <div class="cart-coupon">
+      <input id="cep-input" placeholder="CEP" inputmode="numeric" maxlength="9" aria-label="CEP">
+      <button id="cep-calcular" type="button">Calcular frete</button>
+    </div>
+    <p id="resumo-msg" class="cart-note" role="status"></p>
+
+    <dl class="cart-summary">
+      <div><dt>Subtotal</dt><dd id="resumo-subtotal">R$ 0,00</dd></div>
+      <div><dt>Desconto</dt><dd id="resumo-desconto">R$ 0,00</dd></div>
+      <div><dt>Frete</dt><dd id="resumo-frete">—</dd></div>
+    </dl>
+
+    <div class="cart-total">
+      <strong>Total</strong>
+      <strong id="carrinho-total">R$ 0,00</strong>
+    </div>
+
+    <button id="finalizar" class="add-to-cart" type="button" disabled>FINALIZAR COMPRA</button>
+  </div>
+</dialog>
+
+<dialog id="checkout-dialog" class="store-dialog cart-dialog" aria-labelledby="checkout-titulo">
+  <div class="dialog-header">
+    <h2 id="checkout-titulo">Finalizar compra</h2>
+    <form method="dialog"><button class="dialog-close" type="submit">Fechar</button></form>
+  </div>
+
+  <form id="checkout-form" class="checkout-form">
+    <label>Nome completo<input name="nome" required autocomplete="name"></label>
+    <label>E-mail<input name="email" type="email" required autocomplete="email"></label>
+
+    <fieldset>
+      <legend>Forma de pagamento</legend>
+      <label><input type="radio" name="pagto" value="pix" checked> PIX (5% de desconto)</label>
+      <label><input type="radio" name="pagto" value="cartao"> Cartão em até 10x sem juros</label>
+    </fieldset>
+
+    <p class="checkout-total">Total: <strong id="checkout-total"></strong></p>
+    <p class="cart-note">Simulação: não digite dados reais.</p>
+    <p id="checkout-erro" class="form-error" role="alert" hidden></p>
+    <button class="add-to-cart" type="submit">CONFIRMAR PEDIDO</button>
+  </form>
+
+  <div id="checkout-ok" class="checkout-ok" hidden>
+    <h3>Pedido confirmado!</h3>
+    <p id="checkout-pedido"></p>
+    <form method="dialog"><button class="add-to-cart" type="submit">VOLTAR PARA A LOJA</button></form>
+  </div>
+</dialog>
+
+<div id="cart-status" class="sr-only" role="status" aria-live="polite"></div>
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <strong>GreenStore.</strong>
+    <p>Projeto de portfólio • HTML, CSS e JavaScript</p>
+    <small>Loja demonstrativa • Sem vendas reais</small>
+  </div>
+</footer>
+</body>
+</html>
